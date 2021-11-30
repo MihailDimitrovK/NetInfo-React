@@ -1,0 +1,41 @@
+.container {
+  width: 600px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  border: 0;
+  border-bottom: 1px solid #28145e;
+  margin: 0 20px;
+  width: 620px;
+  height: 30px;
+}
+
+.search,
+.close {
+  height: 17px;
+}
+
+.close {
+  padding-right: 20px;
+}
+
+.input {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 30px;
+  border: 0;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.input:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .form {
+    display: none;
+  }
+}

@@ -1,0 +1,145 @@
+.wrapper {
+  position: relative;
+  width: 300px;
+  height: 380px;
+  background-color: #fff;
+  box-shadow: 0 0 6px rgb(0 0 0 / 20%);
+  border-radius: 5px;
+  padding-top: 30px;
+}
+
+.close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  top: -25px;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  box-shadow: 0 0 6px rgb(0 0 0 / 20%);
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+}
+.form {
+  width: 90%;
+  margin: 0 auto;
+}
+.h2 {
+  white-space: nowrap;
+  text-align: center;
+  padding-bottom: 25px;
+  font-size: 28px;
+  font-weight: 800;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #28145e;
+}
+
+.inputrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #e9e9e9;
+  margin-bottom: 30px;
+  height: 40px;
+}
+.inputrow:focus-within {
+  border: 1px solid rgb(59, 158, 240);
+}
+
+.icons {
+  width: 20px;
+  margin: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.input {
+  border: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+.labels {
+  position: absolute;
+  font-size: 10px;
+  color: #fc5e2f;
+  padding-left: 6px;
+}
+
+.submit {
+  display: block;
+  width: 180px;
+  height: 40px;
+  margin: 20px auto;
+  padding: 8px;
+  border: 0;
+  background-color: #467dfc;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.opt {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #5b5b5b;
+}
+
+.label {
+  margin-left: 5px;
+}
+
+.a {
+  text-decoration: none;
+  color: #5c8cfc;
+  white-space: nowrap;
+}
+
+.forgot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #5b5b5b;
+}
+
+.notactive {
+  display: none;
+}
+
+.error,
+.error:focus-within {
+  border-color: #fc5e2f;
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    width: 400px;
+  }
+
+  .h2{
+      font-size: 23px;
+  }
+  .submit{
+      width: 230px;
+      height: 50px;
+      border-radius: 30px;
+  }
+}
